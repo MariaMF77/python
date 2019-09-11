@@ -8,12 +8,9 @@
 msg = 'Введите значения переменных'
 err_msg = 'Что-то пошло не так. Попробуем еще раз.'
 ok_msg = 'Получилось!'
-is_sys_err = 0
-is_usr_err = 0
-x = 0
-
 is_a_ok = 0
 is_b_ok = 0
+
 print(msg)
 while not(is_a_ok == 1 and is_b_ok == 1):
     try:
